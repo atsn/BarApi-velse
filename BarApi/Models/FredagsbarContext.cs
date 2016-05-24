@@ -10,7 +10,6 @@ namespace BarApi.Models
         public FredagsbarContext()
             : base("name=FredagsbarContext")
         {
-            base.Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Money> Money { get; set; }
